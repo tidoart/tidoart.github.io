@@ -813,6 +813,11 @@ a:hover, a:active {
     font-size: 2.25rem;
     font-weight: 400;
 }
+.single-post .content-area b,
+.single-page .content-area b {
+
+    font-color: #f0437e;
+}
 
 .single-post .entry-header .byline,
 .single-page .entry-header .byline {
@@ -1094,8 +1099,7 @@ a:hover, a:active {
 	background: #f2f7f7;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	
-	
+	width: 100%;
 }
 
 .section-padding-top {
@@ -1111,4 +1115,25 @@ a:hover, a:active {
 display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.pullquote {
+    margin-top: 20px;
+    margin-bottom:40px;
+    font-size: 1.25rem;
+    font-style: italic;
+    text-align: center;
+    color: #c00000;
+}
+
+.dark-color {
+    color: #434345
+}
+
+.blue-color {
+    color: #ff838d;
+}
+
+.pink-color {
+    color: #f0437e;
 }
