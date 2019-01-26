@@ -796,7 +796,8 @@ a:hover, a:active {
 .single-post .entry-header .post-meta,
 .single-page .entry-header .post-meta {
     text-transform: uppercase;
-    font-size: 0.6875rem;
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
 .single-post .entry-header .post-meta a,
@@ -811,7 +812,7 @@ a:hover, a:active {
     margin-top: 10px;
 	margin-bottom:20px;
     font-size: 2.25rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 .single-post .content-area b,
 .single-page .content-area b {
@@ -1006,6 +1007,7 @@ a:hover, a:active {
     display: block;
     line-height: 1.3;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 .single-post .date-format,
@@ -1096,7 +1098,7 @@ a:hover, a:active {
 }
 
 .grey-bg {
-	background: #f2f7f7;
+	background: #f7f7f7;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	width: 100%;
@@ -1123,7 +1125,7 @@ display: block;
     font-size: 1.25rem;
     font-style: italic;
     text-align: center;
-    color: #c00000;
+    color: #f0437e;
 }
 
 .dark-color {
@@ -1137,3 +1139,12 @@ display: block;
 .pink-color {
     color: #f0437e;
 }
+
+h5 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.35rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}    
+    }:
